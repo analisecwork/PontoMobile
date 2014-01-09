@@ -22,14 +22,14 @@
     <gap:splash gap:platform="android" height="720" src="res/screen/android/screen-xhdpi-landscape.png" width="1280"/>
     <gap:splash gap:platform="android" height="1280" src="res/screen/android/screen-xhdpi-portrait.png" width="720"/>
   
-    <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024"/>
-    <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768"/>
-    <gap:splash gap:platform="ios" height="1536" src="res/screen/ios/screen-ipad-landscape.png" width="2048"/>
-    <gap:splash gap:platform="ios" height="2048" src="res/screen/ios/screen-ipad-portrait-2x.png" width="1536"/>
-    <gap:splash gap:platform="ios" height="320" src="res/screen/ios/screen-iphone-landscape.png" width="480"/>
-    <gap:splash gap:platform="ios" height="480" src="res/screen/ios/screen-iphone-portrait.png" width="320"/>
-    <gap:splash gap:platform="ios" height="640" src="res/screen/ios/screen-iphone-landscape-2x.png" width="960"/>
-    <gap:splash gap:platform="ios" height="960" src="res/screen/ios/screen-iphone-portrait-2x.png" width="640"/>
+    <gap:splash gap:platform="ios" height="768" src="res/screen/ios/768_1024.png" width="1024"/>
+    <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/1024_748.png" width="768"/>
+    <gap:splash gap:platform="ios" height="1536" src="res/screen/ios/1536_2048.png" width="2048"/>
+    <gap:splash gap:platform="ios" height="2048" src="res/screen/ios/2048_1536.png" width="1536"/>
+    <gap:splash gap:platform="ios" height="320" src="res/screen/ios/320_480.png" width="480"/>
+    <gap:splash gap:platform="ios" height="480" src="res/screen/ios/480_320.png" width="320"/>
+    <gap:splash gap:platform="ios" height="640" src="res/screen/ios/640_960.png" width="960"/>
+    <gap:splash gap:platform="ios" height="960" src="res/screen/ios/960_640.png" width="640"/>
 
     <feature name="http://api.phonegap.com/1.0/device"/>
 
