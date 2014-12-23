@@ -88,19 +88,6 @@ $(function() {
     $("#bt_CartaoPonto").click(function() {
         window.location.replace("cartaoPonto.html");
     });
-    $("#bt_AtualizaCP").click(function() {
-        navigator.notification.alert("Funcionalidade não disponível nessa versão.", alertCallback, "Atenção", "Ok");
-    });
-    $("#bt_MensagemRH").click(function() {
-        navigator.notification.alert("Funcionalidade não disponível nessa versão.", alertCallback, "Atenção", "Ok");
-    });
-    $("#bt_Notificacoes").click(function() {
-        navigator.notification.alert("Funcionalidade não disponível nessa versão.", alertCallback, "Atenção", "Ok");
-    });
-    function alertCallback() {
-
-    }
-
 });
 function onLoad() {
     document.addEventListener("deviceready", onDeviceReady, false);
@@ -143,7 +130,7 @@ function ConsumirWebServiceLogin(cpf, senha) {
     $.support.cors = true;
     $.ajax({
         type: "GET",
-        url: "http://177.72.160.246:8080/WebService/ServicoMobile.svc/User/Login/?cpf="
+        url: "http://cwork.bs2cloud.com.br:8080/WebService/ServicoMobile.svc/User/Login/?cpf="
                 + cpf + "&senha=" + senha,
         dataType: "json",
         cache: false,

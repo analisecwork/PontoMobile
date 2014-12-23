@@ -61,7 +61,7 @@ $(function() {
         $.support.cors = true;
         $.ajax({
             type: "GET",
-            url: "http://177.72.160.246:8080/WebService/ServicoMobile.svc/User/CartaoPonto/?cpf=" + _cpf + "&senha=" + _senha,
+            url: "http://cwork.bs2cloud.com.br:8080/WebService/ServicoMobile.svc/User/CartaoPonto/?cpf=" + _cpf + "&senha=" + _senha,
             dataType: "json",
             cache: false,
             async: true,
@@ -182,7 +182,7 @@ $(function() {
         $.support.cors = true;
         $.ajax({
             type: "GET",
-            url: "http://177.72.160.246:8080/WebService/ServicoMobile.svc/User/CartaoPonto/TotalMensal/?cpf=" + _cpf + "&mes=" + _mes + "&senha=" + _senha,
+            url: "http://cwork.bs2cloud.com.br:8080/WebService/ServicoMobile.svc/User/CartaoPonto/TotalMensal/?cpf=" + _cpf + "&mes=" + _mes + "&senha=" + _senha,
             dataType: "json",
             cache: false,
             async: true,
@@ -240,7 +240,7 @@ $(function() {
         $.support.cors = true;
         $.ajax({
             type: "GET",
-            url: "http://177.72.160.246:8080/WebService/ServicoMobile.svc/User/CartaoPonto/TotalDiario/?cpf=" + _cpf + "&dia=" + _dia + "&senha=" + _senha,
+            url: "http://cwork.bs2cloud.com.br:8080/WebService/ServicoMobile.svc/User/CartaoPonto/TotalDiario/?cpf=" + _cpf + "&dia=" + _dia + "&senha=" + _senha,
             dataType: "json",
             cache: false,
             async: true,

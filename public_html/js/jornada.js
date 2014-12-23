@@ -27,7 +27,7 @@ $(function() {
         $.support.cors = true;
         $.ajax({
             type: "GET",
-            url: "http://177.72.160.246:8080/WebService/ServicoMobile.svc/User/jornada/?cpf=" + _cpf + "&senha=" + _senha,
+            url: "http://cwork.bs2cloud.com.br:8080/WebService/ServicoMobile.svc/User/jornada/?cpf=" + _cpf + "&senha=" + _senha,
             dataType: "json",
             cache: false,
             async: false,
