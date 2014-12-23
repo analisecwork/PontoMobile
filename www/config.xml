@@ -4,7 +4,7 @@
 
     <description>PhoneGap Application</description>
 
-    <author email="info@com.coolappz" href="http://www.coolappz.com">maykon</author>
+    <author email="info@com.coolappz" href="http://www.coolappz.com">victor</author>
 
     <icon gap:platform="android" height="96" src="res/icon/android/icon-96-xhdpi.png" width="96"/>
     <icon gap:platform="ios" height="144" src="res/icon/ios/icon-72-2x.png" width="144"/>
