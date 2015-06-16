@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 
+/* global alertCallback */
+
 $(function() {
 
     $("#btLogar").click(function() {
@@ -43,7 +45,7 @@ $(function() {
     }
 
     $("#btDemonstracao").click(function() {
-        var _cpf = 47143723274;
+        var _cpf = 63374247512;
         var _senha = "cwork";
         ConsumirWebServiceLogin(_cpf, _senha);
 
@@ -130,7 +132,7 @@ function ConsumirWebServiceLogin(cpf, senha) {
     $.support.cors = true;
     $.ajax({
         type: "GET",
-        url: "http://cwork.bs2cloud.com.br:8080/WebService/ServicoMobile.svc/User/Login/?cpf="
+        url: "http://177.72.160.122:8080/WebService/ServicoMobile.svc/User/Login/?cpf="
                 + cpf + "&senha=" + senha,
         dataType: "json",
         cache: false,

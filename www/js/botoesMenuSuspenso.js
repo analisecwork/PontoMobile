@@ -9,18 +9,6 @@ $(function() {
         window.location.replace("cartaoPonto.html");
     });
 
-    $("#bt_SuspAtualizaCP").click(function() {
-        navigator.notification.alert("Funcionalidade não disponível nessa versão.", alertCallback, "Atenção", "Ok")
-    });
-
-    $("#bt_SuspMensagemRH").click(function() {
-        navigator.notification.alert("Funcionalidade não disponível nessa versão.", alertCallback, "Atenção", "Ok")
-    });
-
-    $("#bt_SuspNotificacoes").click(function() {
-        navigator.notification.alert("Funcionalidade não disponível nessa versão.", alertCallback, "Atenção", "Ok")
-    });
-
     $("#bt_Sair").click(function() {
         removeEntity();
         window.location.replace("index.html");
